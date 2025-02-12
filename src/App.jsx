@@ -1,6 +1,7 @@
-import { useEffect, useState } from react
+import { Products } from './components/Products'
+import { useEffect, useState } from 'react'
 import './App.css'
-import {Products} from './components/Products'
+
 
  
 
@@ -26,7 +27,8 @@ function App() {
     <>
       <h1>Fake Store</h1>
       <p>{products[0].tittle}</p>
-      <Products products={products[0]} />
+      <Products products={products} />
+
 
 
 
