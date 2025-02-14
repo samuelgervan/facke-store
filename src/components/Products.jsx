@@ -5,7 +5,7 @@ export const Products= ({products, buyProduct})=>{
             <h1>{element.tittle}</h1>
             <img src={element.image} height={200} width={300} alt="" />
             <h3>Precio: ${element.price}</h3>
-            <button onClick={()=>{buyProduct(element.id)}}>Comprar</button> 
+            <button onClick={()=>{buyProduct(element)}}>Comprar</button> 
         </div>
 
     })}
